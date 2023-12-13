@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="searchproject.css">
+        <title>CS50w Search Project</title>
+    </head>
+    <body>
+        <nav>
+            <div class="navBanner">
+                <ul>
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="advancesearch.html">Advanced</a></li>
+                </ul>
+            </div>
+        </nav>
+        <form class="searchForm" action="https://www.google.com/search" method="get">
+            <label class="labelforq" for="q">
+            <input class="searchFormBox" type="text" name="q" autofocus>
+            <input type="hidden" name="tbm" value="isch">
+            </label>
+            <div class="formBtns">
+                <input type="submit" class="searchBtn" value="Image Search" role="button">
+            </div>
+        </form>
+    </body>
+    
+</html>
